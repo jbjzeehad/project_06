@@ -29,7 +29,7 @@
         "course_name": "Introduction to Algorithms",
         "credit": 3,
         "price": 59.99,
-        "course_details": "This course provides a foundational understanding of the fundamental concepts and techniques used in the design and analysis of algorithms."
+        "course_details": "This course provides a foundational understanding of the fundamental concepts and teach a high techniques used in the design and analysis of algorithms."
     },
     {
         "id": 5,
@@ -37,7 +37,7 @@
         "course_name": "Introduction to C++ for DSA",
         "credit": 3,
         "price": 49.99,
-        "course_details": "This introductory course aims to provide students with a solid foundation in the C++ programming language, focusing on its application in the context of Data Structures and Algorithms (DSA)"
+        "course_details": "This introductory course aims to provide students with a solid foundation in the C++ programming language, focusing on its application in the context of (DSA)"
     },
     {
         "id": 6,
@@ -45,7 +45,7 @@
         "course_name": "Software Engineering",
         "credit": 6,
         "price": 129.99,
-        "course_details": "This course provides an overview of key concepts and practices in the field of software engineering, enabling students to understand the principles and best practices for creating high-quality software."
+        "course_details": "This course provides an overview of key concepts and practices in the field of software engineering and best practices for creating high-quality software."
     },
     {
         "id": 7,
@@ -69,6 +69,6 @@
         "course_name": "AWS, Cloud Computing",
         "credit": 3,
         "price": 59.99,
-        "course_details": "This course provides a comprehensive introduction to AWS cloud computing, covering essential services and concepts, security and networking, as well as deployment and scaling strategies."
+        "course_details": "This course provides a comprehensive introduction to AWS cloud computing, covering essential services and concepts, networking and scaling strategies."
     }
 ]
