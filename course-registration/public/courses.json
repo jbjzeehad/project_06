@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "image": "https://i.ibb.co/FsxJykD/1.png",
+        "course_name": "Introduction to OOP Python",
+        "credit": 3,
+        "price": 49.99,
+        "course_details": "This course is designed to provide a solid foundation in the principles and practices of object-oriented programming using the Python programming language"
+    },
+    {
+        "id": 2,
+        "image": "https://i.ibb.co/Gs6nkDV/2.png",
+        "course_name": "Database (MySQL)",
+        "credit": 4,
+        "price": 79.99,
+        "course_details": "This introductory course on MySQL databases provides students with a fundamental understanding of database management and SQL programming using MySQL."
+    },
+    {
+        "id": 3,
+        "image": "https://i.ibb.co/cg68Jb6/3.png",
+        "course_name": "Introduction to C Programming",
+        "credit": 5,
+        "price": 99.99,
+        "course_details": "This course is designed to provide students with a solid foundation in one of the most influential and widely used programming languages in the world, C."
+    },
+    {
+        "id": 4,
+        "image": "https://i.ibb.co/7ngF2g7/4.png",
+        "course_name": "Introduction to Algorithms",
+        "credit": 3,
+        "price": 59.99,
+        "course_details": "This course provides a foundational understanding of the fundamental concepts and techniques used in the design and analysis of algorithms."
+    },
+    {
+        "id": 5,
+        "image": "https://i.ibb.co/R63jhKC/5.png",
+        "course_name": "Introduction to C++ for DSA",
+        "credit": 3,
+        "price": 49.99,
+        "course_details": "This introductory course aims to provide students with a solid foundation in the C++ programming language, focusing on its application in the context of Data Structures and Algorithms (DSA)"
+    },
+    {
+        "id": 6,
+        "image": "https://i.ibb.co/p1mHSbW/6.png",
+        "course_name": "Software Engineering",
+        "credit": 6,
+        "price": 129.99,
+        "course_details": "This course provides an overview of key concepts and practices in the field of software engineering, enabling students to understand the principles and best practices for creating high-quality software."
+    },
+    {
+        "id": 7,
+        "image": "https://i.ibb.co/7N84kMY/7.png",
+        "course_name": "Problem-Solving Part",
+        "credit": 4,
+        "price": 89.99,
+        "course_details": "This course delves into the fundamental principles of problem solving, equipping you with the skills and techniques to tackle problems with confidence."
+    },
+    {
+        "id": 8,
+        "image": "https://i.ibb.co/61VGnyc/8.png",
+        "course_name": "Basic Data Structures",
+        "credit": 2,
+        "price": 39.99,
+        "course_details": "This course provides a foundational understanding of basic data structures, which are essential for organizing and managing data efficiently in computer programs."
+    },
+    {
+        "id": 9,
+        "image": "https://i.ibb.co/ZSwQR0t/9.png",
+        "course_name": "AWS, Cloud Computing",
+        "credit": 3,
+        "price": 59.99,
+        "course_details": "This course provides a comprehensive introduction to AWS cloud computing, covering essential services and concepts, security and networking, as well as deployment and scaling strategies."
+    }
+]
