@@ -1,10 +1,18 @@
 import './App.css'
+import Cards from './Components/Cards/Cards'
+import Header from './Components/Header/Header'
+import List from './Components/List/List'
 
 function App() {
 
   return (
     <>
-      <h1 className='text-3xl'>Hello World!</h1>
+      <Header></Header>
+      <div className='flex'>
+        <Cards></Cards>
+        <List></List>
+      </div>
+
     </>
   )
 }
