@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 import Card from "../Card/Card";
+import PropTypes from 'prop-types';
 
-
-const Cards = () => {
+const Cards = ({ addCourseToList }) => {
     const [courses, setCourses] = useState([]);
     useEffect(() => {
         fetch('courses.json')
@@ -11,15 +11,20 @@ const Cards = () => {
     }, [])
     return (
 
-        <div className="border grid grid-cols-3 border-red-500 p-2 w-3/4">
+        <div className="grid grid-cols-3 p-1 w-3/4">
             {
-                courses.map(card => <Card key=
-                    {card.id}
+                courses.map(card => <Card
+                    key={card.id}
                     card={card}
+                    addCourseToList={addCourseToList}
                 ></Card>)
             }
         </div>
     );
 };
+
+Cards.propTypes = {
+    addCourseToList: PropTypes.func
+}
 
 export default Cards;

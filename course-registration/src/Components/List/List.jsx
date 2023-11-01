@@ -1,11 +1,17 @@
+import PropTypes from 'prop-types';
 
-
-const List = () => {
+const List = ({ addList }) => {
+    const { course_name } = addList;
     return (
-        <div className="border border-red-500 w-1/4">
-
+        <div className=" text-slate-500 text-xs mt-1">
+            <p> {course_name}</p>
         </div>
     );
 };
+
+List.propTypes = {
+    addList: PropTypes.object
+}
+
 
 export default List;
