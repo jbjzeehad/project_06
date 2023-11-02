@@ -4,7 +4,7 @@ const List = ({ addList }) => {
     const { course_name } = addList;
     return (
         <div className=" text-slate-500 text-xs mt-1">
-            <p> {course_name}</p>
+            <p>+ {course_name}</p>
         </div>
     );
 };
@@ -12,6 +12,5 @@ const List = ({ addList }) => {
 List.propTypes = {
     addList: PropTypes.object
 }
-
 
 export default List;
