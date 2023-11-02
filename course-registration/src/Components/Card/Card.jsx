@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import { FiDollarSign } from 'react-icons/fi';
 import { HiOutlineBookOpen } from 'react-icons/hi2';
 
-const Card = ({ card, addCourseToList }) => {
+const Card = ({ card, addCourseToList, addCredit, addCoursePrice }) => {
     const { image, course_name, credit, price, course_details } = card;
     return (
         <div className='p-2 bg-white m-2 rounded-xl'>
@@ -18,14 +18,16 @@ const Card = ({ card, addCourseToList }) => {
                 <p className='text-xs text-slate-600'>Credit: {credit}hr</p>
 
             </div>
-            <button onClick={() => addCourseToList(card)} className="font-semibold text-sm bg-sky-600 text-white p-1 w-full rounded-lg">Select</button>
+            <button onClick={() => [addCourseToList(card), addCredit(credit), addCoursePrice(price)]} className="font-semibold text-sm bg-sky-600 text-white p-1 w-full rounded-lg">Select</button>
         </div>
     );
 };
 
 Card.propTypes = {
     card: PropTypes.object.isRequired,
-    addCourseToList: PropTypes.func
+    addCourseToList: PropTypes.func,
+    addCredit: PropTypes.func,
+    addCoursePrice: PropTypes.func
 }
 
 

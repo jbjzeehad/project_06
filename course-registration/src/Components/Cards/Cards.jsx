@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import Card from "../Card/Card";
 import PropTypes from 'prop-types';
 
-const Cards = ({ addCourseToList }) => {
+const Cards = ({ addCourseToList, addCredit, addCoursePrice }) => {
     const [courses, setCourses] = useState([]);
     useEffect(() => {
         fetch('courses.json')
@@ -17,6 +17,8 @@ const Cards = ({ addCourseToList }) => {
                     key={card.id}
                     card={card}
                     addCourseToList={addCourseToList}
+                    addCredit={addCredit}
+                    addCoursePrice={addCoursePrice}
                 ></Card>)
             }
         </div>
@@ -24,7 +26,9 @@ const Cards = ({ addCourseToList }) => {
 };
 
 Cards.propTypes = {
-    addCourseToList: PropTypes.func
+    addCourseToList: PropTypes.func,
+    addCredit: PropTypes.func,
+    addCoursePrice: PropTypes.func
 }
 
 export default Cards;
